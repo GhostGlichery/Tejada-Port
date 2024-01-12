@@ -1,0 +1,91 @@
+body {
+   color: black;
+   margin: 0px;
+   background: black;
+}
+
+.wrap {
+   padding: 20px;
+}
+
+.serv1 {
+   background: lightgray;
+   padding: 20px;
+   margin: 5px;
+   border-radius: 10px;
+}
+
+.serv2 {
+   background: #8098ff;
+   padding: 20px;
+   margin: 5px;
+   border-radius: 10px;
+}
+
+.serv3 {
+   padding: 20px;
+   margin: 5px;
+   color: black;
+   background: white;
+   border-radius: 10px;
+}
+
+.serv3 a
+.serv2 a
+.serv1 a {
+   color: yellow;
+}
+
+header {
+   padding: 20px;
+   background: black;
+   color: white;
+}
+
+@media(min-width: 600px){
+   main {
+      display: flex;
+      flex-flow: row;
+   }
+   
+   .panel2 {
+      vertical-align: middle;
+      transform: translateY(25%);
+   }
+   
+   body {
+      background: url('serv-bg.jpeg');
+      background-attachment: fixed;
+      background-position: fixed;
+   }
+   
+   header {
+      background: rgba(255,255,255,0.3);
+      backdrop-filter: blur(5px);
+   }
+}
+
+@media(min-width: 600px){
+   main {
+      display: flex;
+      flex-flow: row;
+   }
+   
+   .panel2 {
+      vertical-align: middle;
+      transform: translateY(25%);
+   }
+   
+   body {
+      background: url('serv-bg.jpeg');
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-size: 20pt;
+   }
+   
+   header {
+      background: rgba(255,255,255,0.3);
+      backdrop-filter: blur(5px);
+   }
+}

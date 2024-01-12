@@ -1,0 +1,140 @@
+body {
+   margin: 0px;
+   background: #181d30;
+}
+
+nav li  {
+   display: flex;
+   display: inline;
+}
+
+.nav {
+   padding: 20px;
+   margin: 5px auto;
+   flex-wrap: wrap;
+   word-spacing: 1.5em;
+   text-align: center;
+   line-height: 2em;
+}
+
+header {
+   background: url('imgs/hdr-bg.jpeg');
+   padding: 20px;
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+   color: white;
+}
+
+.pfp {
+   border-radius: 50%;
+   width: 150px;
+}
+
+nav li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 15pt;
+}
+
+.wrapper {
+   padding: 10px;
+   display: flex;
+}
+
+.name {
+   font-size: 30pt;
+}
+
+strong {
+   color: yellow;
+}
+
+@media(min-width: 768px){
+   .name {
+      text-align: center;
+      padding: 20px;
+      font-size: 45pt;
+   }
+   
+   main {
+      vertical-align: middle;
+   }
+   
+   strong {
+      color: yellow;
+   }
+   
+   .wrapper2 {
+      display: flex;
+      flex-flow: column;
+   }  
+   
+   .Contact {
+      line-height: 3.5em;
+      text-align: center;
+      vertical-align: middle;
+   }
+   
+   main p {
+      font-size: 20pt;
+   } 
+   
+   .ignore {
+      display: flex;
+      flex-flow: row;
+      width: 100%;
+   }
+   
+   .ign {
+      vertical-align: middle;
+   }
+}
+
+main {
+   margin: 10px;
+   background-color: #6c6c6c;
+   color: white;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+.Contact {
+   border-radius: 20px;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   background: white;
+   color: black;
+   word-spacing: 1.5em;
+}
+
+.Contact li a {
+   padding: 5px;
+   border: 1px solid black;
+   text-decoration: none;
+   font-size: 15pt;
+   color: black;
+   font-weight: bold;
+   transition: 0.3s ease;
+}
+
+.Contact li a:hover {
+   background: black;
+   color: white;
+}
+
+.Contact li {
+   display: inline;
+}
+
+.Skills {
+   border-radius: 20px;
+   margin: 10px;
+   padding: 20px;
+   text-align: center;
+   background: white;
+   color: black;
+   word-spacing: 1.5em;
+}
